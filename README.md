@@ -16,7 +16,7 @@ No Contributing
 
 ## Authors
 
-* **Nicholas Diaz** - *Initial work* - [Wuno, Inc.](https://wuno.com)
+* **Nicholas J. Diaz** - *Initial work* - [Wuno, Inc.](https://wuno.com)
 
 ## License
 

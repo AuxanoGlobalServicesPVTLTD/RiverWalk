@@ -41,7 +41,11 @@ import { p404Component }                from './pages/404.component';
 import { p500Component }                from './pages/500.component';
 import { LoginComponent }               from './pages/login.component';
 import { RegisterComponent }            from './pages/register.component';
-import { TestingCompComponent } from './testing-comp/testing-comp.component';
+import { HomeComponent }                from './pages/home.component';
+import { BenefitsComponent }            from './pages/benefits.component';
+import { ServicesComponent } from './pages/services.component';
+import { ProductsComponent } from './pages/products.component';
+import { EducationComponent } from './pages/education.component';
 
 @NgModule({
   imports: [
@@ -73,7 +77,11 @@ import { TestingCompComponent } from './testing-comp/testing-comp.component';
     BreadcrumbsComponent,
     SIDEBAR_TOGGLE_DIRECTIVES,
     AsideToggleDirective,
-    TestingCompComponent
+    HomeComponent,
+    BenefitsComponent,
+    ServicesComponent,
+    ProductsComponent,
+    EducationComponent
   ],
   bootstrap: [ AppComponent ]
 })

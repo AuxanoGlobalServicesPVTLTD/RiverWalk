@@ -1,10 +1,10 @@
 {
-  "name": "CoreUI",
-  "version": "1.0.0-alpha.2",
-  "description": "Open Source Bootstrap Admin Template",
-  "author": "",
-  "url": "http://coreui.io",
-  "copyright": "Copyright 2016 creativeLabs Łukasz Holeczek",
+  "name": "Riverwalk Web Application",
+  "version": "1.0.0",
+  "description": "Credit Repair Web Application",
+  "author": "Nicholas J. Diaz - Wuno, Inc.",
+  "url": "https://wuno.com",
+  "copyright": "Copyright 2016 Wuno, Inc.",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {

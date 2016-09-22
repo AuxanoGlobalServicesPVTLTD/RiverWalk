@@ -30,6 +30,11 @@ import { p404Component }                from './pages/404.component';
 import { p500Component }                from './pages/500.component';
 import { LoginComponent }               from './pages/login.component';
 import { RegisterComponent }            from './pages/register.component';
+import { HomeComponent }                from './pages/home.component';
+import { BenefitsComponent }            from './pages/benefits.component';
+import { ServicesComponent }            from './pages/services.component';
+import { EducationComponent }            from './pages/education.component';
+import { ProductsComponent }            from './pages/products.component';
 
 const appRoutes: Routes = [
     {
@@ -156,6 +161,41 @@ const appRoutes: Routes = [
             title: 'Pages'
         },
         children: [
+            {
+                path: 'home',
+                component: HomeComponent,
+                data: {
+                    title: 'Home Page'
+                }
+            },
+            {
+                path: 'benefits',
+                component: BenefitsComponent,
+                data: {
+                    title: 'Benefits Page'
+                }
+            },
+            {
+                path: 'services',
+                component: ServicesComponent,
+                data: {
+                    title: 'Services Page'
+                }
+            },
+            {
+                path: 'education',
+                component: EducationComponent,
+                data: {
+                    title: 'Education Page'
+                }
+            },
+            {
+                path: 'products',
+                component: ProductsComponent,
+                data: {
+                    title: 'Products Page'
+                }
+            },
             {
                 path: '404',
                 component: p404Component,
