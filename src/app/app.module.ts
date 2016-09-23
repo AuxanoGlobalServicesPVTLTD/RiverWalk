@@ -43,9 +43,9 @@ import { LoginComponent }               from './pages/login.component';
 import { RegisterComponent }            from './pages/register.component';
 import { HomeComponent }                from './pages/home.component';
 import { BenefitsComponent }            from './pages/benefits.component';
-import { ServicesComponent } from './pages/services.component';
-import { ProductsComponent } from './pages/products.component';
-import { EducationComponent } from './pages/education.component';
+import { ServicesComponent }            from './pages/services.component';
+import { ProductsComponent }            from './pages/products.component';
+import { EducationComponent }           from './pages/education.component';
 
 @NgModule({
   imports: [

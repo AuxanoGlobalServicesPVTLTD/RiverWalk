@@ -3,7 +3,7 @@ import { Router }                   from '@angular/router';
 
 @Component({
     selector: 'app-dashboard',
-    template: '<router-outlet></router-outlet>',
+    templateUrl: './simple-layout.component.html'
 })
 export class SimpleLayoutComponent implements OnInit {
 
