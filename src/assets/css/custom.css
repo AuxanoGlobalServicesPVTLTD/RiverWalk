@@ -1,5 +1,13 @@
 /* You can add custom styles to this file, and also import other style files */
 
+a:hover {
+	text-decoration: none;
+}
+
+header.navbar a.navbar-brand {
+    background-size: 130px auto !important;
+}
+
 li.nav-item.customer-login-link {
     padding-right: 25px;
 }
@@ -17,11 +25,30 @@ li.nav-item.customer-login-link {
     padding: 20px 0 20px 0;
 }
 
+.primaryUnderSlide {
+    text-align: center;
+    padding: 60px 0 20px 0;
+}
+
 .txtFormat {
     text-align: center;
     padding: 20px 20px 20px 20px;
-    background-color: #fff;
+    background-color: #779476;
+    color: #fff;
     border-radius: 6px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle
+}
+
+.txtFormat a {
+	color: #93e8f7;
+	text-decoration: none;
+}
+
+.txtFormat a:hover {
+	color: #fff;
 }
 
 .crumb {
@@ -41,7 +68,7 @@ li.nav-item.customer-login-link {
 float: none;
 margin: 0 auto;
 text-align: center;
-padding-top: 60px;
+padding-top: 35px;
 }
 
 .orderCent p {
@@ -68,6 +95,52 @@ padding-top: 60px;
 .pad {
 	padding: 20px;
 }
+
+.signup-link {
+	text-decoration: none !important;
+}
+
+.shield-signup {
+	font-size: 120px;
+	color: #779476;
+}
+
+.btn-shield {
+    color: #fff;
+    background-color: #779476;
+    border-color: #779476;
+}
+
+button.btn.btn-shield.btn-lg.btn-block:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=50); 
+}
+
+i.fa.fa-search.analyze {
+	color: #779476;
+    font-size: 36px;
+}
+
+.mybtn1 {
+	color: #779476;
+}
+
+a.mybtn1 {
+	color: #779476;
+	text-decoration: none; 
+}
+
+a.mybtn1 :hover {
+    opacity: 0.9;
+    filter: alpha(opacity=50); 
+}
+
+.break {
+    clear: both;
+    width: 100%;
+    padding: 20px;
+}
+
 /* ================= Media Quries ================= */
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px){
