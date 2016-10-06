@@ -176,7 +176,7 @@ a.mybtn1 :hover {
 }
 
 .repair-sec {
-    padding: 20px 0 180px 0;
+    padding: 20px 0 80px 0;
 }
 
 .social-links {
@@ -189,7 +189,7 @@ footer.footer {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 170px;
+  /*height: 170px;*/
   padding: 20px 80px 20px 80px !important;
   color: #263238;
   background: #ffffff;
@@ -209,6 +209,13 @@ address {
 @media only screen and (min-width: 1024px) and (max-width: 1199px){
 
 }
+
+@media only screen and (min-width: 548px) and (max-width: 766px){
+	.btn-lg, .btn-group-lg > .btn{
+		padding: 0.5rem 0rem;
+	}
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
 .myRiverwalkUnderSlide {
@@ -263,8 +270,7 @@ address {
 
 @media only screen and (min-width: 0px) and (max-width: 991px){
 	.repair-sec {
-	padding-bottom: 220px;
+	padding-bottom: 110px;
 }
 	}
-
 
