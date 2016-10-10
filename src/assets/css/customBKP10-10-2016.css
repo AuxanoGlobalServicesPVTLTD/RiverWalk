@@ -151,20 +151,6 @@ button.btn.btn-shield.btn-lg.btn-block:hover {
 	color: #779476;
     font-size: 36px;
 }
-.product.para {
-    font-weight: bold;
-    margin-bottom: 0px;
-}
-.product.compliantgroup.nosymbol {
-    list-style-type: none;
-}
-.product.row.primaryUnderSlide {
-    padding: 20px 0 20px 0;
-}
-.product.compliantgroup {
-    text-align: left;
-	margin-top: 18px;
-}
 .product.col-sm-4 {
 	padding: 0px 11px 17px 10px;
 }
