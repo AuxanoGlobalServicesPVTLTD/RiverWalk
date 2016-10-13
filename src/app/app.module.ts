@@ -46,6 +46,11 @@ import { BenefitsComponent }            from './pages/benefits.component';
 import { ServicesComponent }            from './pages/services.component';
 import { ProductsComponent }            from './pages/products.component';
 import { EducationComponent }           from './pages/education.component';
+import { BuildingComponent }            from './pages/building.component';
+import { TipsComponent }                from './pages/tips.component';
+import { MaintenanceComponent }         from './pages/maintenance.component';
+import { ForaComponent }         		from './pages/fora.component';
+import { CroaComponent }         		from './pages/croa.component';
 
 @NgModule({
   imports: [
@@ -81,7 +86,12 @@ import { EducationComponent }           from './pages/education.component';
     BenefitsComponent,
     ServicesComponent,
     ProductsComponent,
-    EducationComponent
+    EducationComponent,
+	BuildingComponent,
+	TipsComponent,
+	MaintenanceComponent,
+	ForaComponent,
+	CroaComponent
   ],
   bootstrap: [ AppComponent ]
 })
